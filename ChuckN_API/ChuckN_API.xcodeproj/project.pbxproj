@@ -15,6 +15,7 @@
 		244A62052B1B5BE300F9C168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244A62032B1B5BE300F9C168 /* LaunchScreen.storyboard */; };
 		244A62102B1B5BE300F9C168 /* ChuckN_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244A620F2B1B5BE300F9C168 /* ChuckN_APITests.swift */; };
 		244A621B2B1B5BE300F9C168 /* ChuckN_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244A621A2B1B5BE300F9C168 /* ChuckN_APIUITests.swift */; };
+		244A62292B1B6FA100F9C168 /* ChuckAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244A62282B1B6FA100F9C168 /* ChuckAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		244A62162B1B5BE300F9C168 /* ChuckN_APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuckN_APIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		244A621A2B1B5BE300F9C168 /* ChuckN_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckN_APIUITests.swift; sourceTree = "<group>"; };
 		244A621C2B1B5BE300F9C168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244A62282B1B6FA100F9C168 /* ChuckAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		244A61EC2B1B5BD700F9C168 = {
 			isa = PBXGroup;
 			children = (
+				244A62282B1B6FA100F9C168 /* ChuckAPI.swift */,
 				244A61F72B1B5BD800F9C168 /* ChuckN_API */,
 				244A620E2B1B5BE300F9C168 /* ChuckN_APITests */,
 				244A62192B1B5BE300F9C168 /* ChuckN_APIUITests */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				244A61F92B1B5BD800F9C168 /* AppDelegate.swift in Sources */,
+				244A62292B1B6FA100F9C168 /* ChuckAPI.swift in Sources */,
 				244A61FB2B1B5BD800F9C168 /* SceneDelegate.swift in Sources */,
 				244A61FD2B1B5BD800F9C168 /* ContentView.swift in Sources */,
 			);
